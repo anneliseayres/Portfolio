@@ -25,4 +25,4 @@ This portfolio showcases technical projects, studies, and educational content I 
 
 - [LinkedIn](www.linkedin.com/in/annelise-ayres-a763aa63)
 - Email: anneliseayres@gmail.com
-- GitHub: [yourgithub](https://github.com/yourgithub)
+- GitHub: [github](hhttps://github.com/anneliseayres)
