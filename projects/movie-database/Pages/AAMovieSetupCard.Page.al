@@ -1,7 +1,7 @@
 page 50455 "AA Movie Setup Card"
 {
     ApplicationArea = all;
-    Caption = 'Movie Setup Card';
+    Caption = 'Movie Setup';
     DeleteAllowed = false;
     InsertAllowed = false;
     PageType = Card;

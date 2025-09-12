@@ -2,7 +2,7 @@ page 50454 "AA Get movie details"
 {
     PageType = StandardDialog;
     UsageCategory = None;
-    Caption = 'Edit - Get movie details from OMDb';
+    Caption = 'Get movie details from OMDb';
 
     layout
     {

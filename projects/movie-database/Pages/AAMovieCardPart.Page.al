@@ -32,6 +32,10 @@ page 50452 "AA Movie Card Part"
                 Image = Import;
                 Caption = 'File Upload';
                 ToolTip = 'Upload a picture file.';
+            //   Promoted = true;
+              //  PromotedCategory = Process;
+               // PromotedIsBig = true;
+               // PromotedOnly = true;
 
                 trigger OnAction()
                 begin
@@ -40,7 +44,35 @@ page 50452 "AA Movie Card Part"
             }
         }
     }
-
+    procedure UploadImage(): text
+    var
+        TempBlob: Codeunit "Temp Blob";
+        NVInStream: InStream;
+        NVOutStream: OutStream;
+        UploadResult: Boolean;
+        Name: Text;
+        DialogCaption: Text;
+        ConfirmModify: Boolean;
+        ConfirmMsg: Label 'An image already exists. Do you want to modify the existing image?';
+    begin
+        if Rec.Image.Count > 0 then begin
+            ConfirmModify := Confirm(ConfirmMsg, false);
+            if not ConfirmModify then
+                exit;
+        end;
+        Clear(Rec.Image);
+        UploadResult := UploadIntoStream(DialogCaption, NVInStream);
+        if UploadResult then begin
+            TempBlob.CreateOutStream(NVOutStream);
+            CopyStream(NVOutStream, NVInStream);
+            TempBlob.CreateInStream(NVInStream);
+            Rec.Image.ImportStream(NVInStream, Name);
+            Rec.Modify();
+            exit(Name);
+        end;
+    end;
+    /*
+    Procedure correçao curso
     local procedure UploadImage()
     var
          PictureInStream: InStream;
@@ -53,5 +85,5 @@ page 50452 "AA Movie Card Part"
             Rec.Modify();
         end;
     end;
-
+    */
 }

@@ -1,10 +1,13 @@
-permissionset 50450 MoviesPermissions
+namespace MovieDatabasePermission;
+
+permissionset 50450 GeneratedPermission
 {
     Assignable = true;
     Permissions = tabledata "AA Movie"=RIMD,
         tabledata "AA Movie Setup"=RIMD,
         table "AA Movie"=X,
         table "AA Movie Setup"=X,
+        codeunit "AA Backup"=X,
         codeunit "AA Backup CSV"=X,
         codeunit "AA Backup JSON"=X,
         codeunit "AA Backup XML"=X,

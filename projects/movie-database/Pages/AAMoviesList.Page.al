@@ -1,7 +1,7 @@
 page 50450 "AA Movies List"
 {
     PageType = List;
-    Caption = 'Movie List';
+    Caption = 'Movies';
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "AA Movie";
@@ -81,24 +81,25 @@ page 50450 "AA Movies List"
                 PromotedOnly = true;
                 trigger OnAction()
                 begin
-                    BackupMovie();
+                    AABackup.BackupMovie();
+                end;
+            }
+            action("Export Manually")
+            {
+                ApplicationArea = All;
+                Image = Export;
+                Caption = 'Backup Manually';
+                ToolTip = 'Allows you to select the backup format manually.';
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
+                trigger OnAction()
+                begin
+                    AABackup.ManualBackupMovie();
                 end;
             }
         }
     }
-    local procedure BackupMovie()
     var
-        BackupInterface: Interface "AA Backup";
-        Movie: Record "AA Movie";
-        MovieSetup: Record "AA Movie Setup";
-    begin
-        if not MovieSetup.Get() then
-            Error('Please setup the backup type in the Movie Setup page.');
-       
-        if Movie.IsEmpty() then
-            exit;
-       
-        BackupInterface := MovieSetup.BackupType;
-        BackupInterface.Backup(Movie);
-    end;
+        AABackup: Codeunit "AA Backup";
 }

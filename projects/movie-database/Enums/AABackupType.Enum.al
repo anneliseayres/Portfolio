@@ -5,7 +5,6 @@ enum 50450 "AA Backup Type" implements "AA Backup"
     value(0; CSV)
     {
         Caption = 'CSV', Locked = true;
-        // use locked so that this caption is not translated
         Implementation = "AA Backup" = "AA Backup CSV";
     }
      value(1; XSLX)
