@@ -20,7 +20,7 @@ It includes:
 | `Codeunits` | Business logic components |
 | `Interfaces` | Interfaces used by Codeunits |
 | `Enums` | Enumeration of genres |
-| `MoviesPermissions.permissionset.al` | Permission set definition |
+| `GeneratedPermission.permissionset.al` | Permission set definition |
 | `Cronus_Movie Database_1.0.0.0.app` | Published app package |
 
 ## 🔧 Use Case
