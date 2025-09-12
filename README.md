@@ -9,6 +9,14 @@ This portfolio showcases technical projects, studies, and educational content I 
 
 ---
 
+## 🛠️ Technical Projects
+
+### 🔹 AL – Movie Database Extension  
+> Custom extension for Business Central integrating the OMDb API to manage a movie catalog, featuring API consumption, modular design with interfaces, and export options (CSV, XLSX, JSON, XML).  
+- 📂 [`/projects/movie-database`](projects/movie-database)
+
+---
+
 ## 🚀 Career Transition Timeline
 
 | Year | Milestone |
