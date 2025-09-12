@@ -1,0 +1,32 @@
+{
+  "id": "535774c1-ccf1-4322-b1b4-557b157a990f",
+  "name": "Movie Database",
+  "publisher": "Cronus",
+  "version": "1.0.0.0",
+  "brief": "Application to manage your movies collection.",
+  "description": "Application to manage your movies collection.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50450,
+      "to": 50499
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
