@@ -102,4 +102,4 @@ To install this extension:
 
 ---
 
-## 🔗 Back to [My Portfolio](https://github.com/anneliseayres/Portfolio)
+### 🔗 Back to [My Portfolio](https://github.com/anneliseayres/Portfolio)
