@@ -3,9 +3,18 @@
 > 🇵🇹 This portfolio is written in English for professional purposes. If you need a Portuguese version, feel free to reach out.
 
 Hello! I'm a Solution Developer specialized in **Dynamics 365 Business Central** and **Power Platform**.  
-I have a background in Speech Therapy (PhD and over 10 years of experience) and transitioned into tech in 2023, after moving to Portugal and completing a degree in Data Science and a Microsoft-focused reskilling program (Upskill).
+
+I have a background in Speech Therapy (PhD and over 10 years of experience) and transitioned into tech in 2023, after moving to Portugal and completing a degree in Data Science and the **Microsoft UpSkill Program** for Business Central developers [BC Talent Program](https://dynamicspartners.transform.microsoft.com/program/bctalent).
 
 This portfolio showcases technical projects, studies, and educational content I developed during my transition into the Microsoft ecosystem.
+
+---
+
+## 🛠️ Technical Projects
+
+### 🔹 AL – Movie Database Extension  
+> Custom extension for Business Central integrating the OMDb API to manage a movie catalog, featuring API consumption, modular design with interfaces, and export options (CSV, XLSX, JSON, XML).  
+- 📂 [`/projects/movie-database`](projects/movie-database)
 
 ---
 
