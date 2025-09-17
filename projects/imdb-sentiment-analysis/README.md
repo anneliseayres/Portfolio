@@ -50,7 +50,7 @@ The dataset was translated and published by [Luís Fred on Kaggle](https://www.k
 
 ## 📎 Notes
 
-- Full dataset not included due to size (~125MB). You can download it from [Kaggle](https://www.kaggle.com/datasets/luisfredgs/imdb-ptbr).
+- The complete IMDB PT-BR dataset is included in this repository as a ZIP file (/data/imdb_ptbr.zip), originally published on [Kaggle](https://www.kaggle.com/datasets/luisfredgs/imdb-ptbr) by Luís Fred.
 - To test locally, use the sample dataset in `/data/`.
 
 ---
