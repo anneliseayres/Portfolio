@@ -22,7 +22,7 @@ This portfolio showcases technical projects, studies, and educational content I 
 
 ### 🔹 PySpark – Exploratory Analysis of IMDB PT-BR Dataset  
 > Big Data project using PySpark on a virtual machine (Hadoop + Spark + MariaDB) to perform exploratory analysis on the IMDB movie review dataset in Portuguese, with basic aggregations and text sentiment insights.  
-📂 [`/projects/imdb-ptbr-analysis`] (projects/imdb-ptbr-analysis)
+📂 [`/projects/imdb-sentiment-analysis`] (projects/imdb-sentiment-analysis) 
 
 ---
 
